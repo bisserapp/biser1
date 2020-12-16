@@ -1,0 +1,42 @@
+
+{
+  "products" :
+  [
+    {"id" : 1, "name" : "Hair Design Gel", "price" : 120},
+    {"id" : 2, "name" : "Nails Gel", "price" : 250}
+  ],
+
+
+  "service" :
+  [
+    {"id" : 1, "name" : "Haircut", "price" : 50, "avaiable" : true},
+    {"id" : 2, "name" : "Nails Gel", "price" : 70, "avaiable" : true},
+    {"id" : 3, "name" : "Tattoo", "price" : 250, "avaiable" : true}
+  ],
+
+
+  "user" :
+  [
+    {"id" : 312352842, "name" : "Tal Ayash","age" : 26,"email" : "talayash@gmail.com"},
+    {"id" : 311577126, "name" : "Rotem Levi","age" : 24,"email" : "052rotemlevi@gmail.com"}
+  ],
+
+
+  "serviceTypes" :
+  [
+    {"id" : 1, "type" :  "Hair Design"},
+    {"id" : 2, "type" :  "Tattoo Artist"},
+    {"id" : 3, "type" :  "Nails Maker"}
+  ],
+
+  "userIsBussines" :
+  [
+    {"id" : 1,"userID" : 312352842, "serviceTypeID" : 1 }
+  ],
+
+  "userGetService" :
+  [
+    {"id" : 1, "userID" : 311577126, "bussinesID" : 1, "date" : "16/12/2020 16:50" }
+  ]
+
+}
